@@ -1,0 +1,76 @@
+html, #cadre, h1{
+	background-image:-webkit-linear-gradient(left, white, black);
+	background-image:-moz-linear-gradient(left, white, black);
+	background-image:-o-linear-gradient(left, white, black);
+	background-image:linear-gradient(to right, white, black);
+}
+
+body { 
+	font-weight:bold; 
+} 
+ 
+table{
+	border-collapse:collapse;
+	display: table-cell;
+} 
+ 
+td { 
+	color:white; 
+	font-size:20px; 
+	border:inset 6px black; 
+	width:70px; 
+	height:70px; 
+	text-align:center; 
+} 
+ 
+#divScore { 
+	font-weight:bold; 
+	color:black;
+	height: 200px; 
+	margin-top:150px; 
+	margin-left:20%; 
+	float:left; 
+	font-size:20px;
+	display: table-cell;
+} 
+ 
+#myScore{ 
+	font-weight:bold; 
+	width:100px; 
+	color:red; 
+	margin-top:150px; 
+	margin-left:50px; 
+	font-size:20px;
+} 
+
+#donnees { 
+	float:left; 
+	font-size:20px;
+	display: table-cell;
+} 
+
+#message{ 
+	visibility:hidden;
+	width:100px;
+    color: red;
+	display: table-cell;
+	padding-left: 150px;
+}
+
+h1{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+#a{
+	visibility: hidden;
+	margin-left: 255px;
+	margin-top: 30px;
+}
+
+#cadre{
+	padding-top: 50px;
+}
